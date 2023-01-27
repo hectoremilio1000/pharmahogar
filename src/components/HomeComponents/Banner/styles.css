@@ -1,0 +1,26 @@
+.bannerContainer {
+  height: 80vh;
+}
+.titleBanner {
+  font-size: 30px;
+  font-weight: 300;
+}
+.text1Banner {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.text2Banner {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.bgBanner {
+  background-image: "url('https://images.ctfassets.net/u1nb1km7t5q7/7zLehBUOaDRgPpusTiGR0t/d87455b96d2a4a2aa712b39613a3ab27/Aesop_Sage_Zinc_2022_Web_Homepage_Primary_Full_Bleed_US_Desktop_2880x1044px.jpg')";
+}
+
+@media screen and (max-width: 575px) {
+  .bgBanner {
+    background-image: "url('https://images.ctfassets.net/u1nb1km7t5q7/zBrm5k1mOp6xWMuKA5BVj/c3580934bc7aabcaf2821bc592d0489c/Aesop_Sage_Zinc_2022_Web_Homepage_Primary_Full_Bleed_US_Tablet_1536x1230px.jpg')";
+  }
+}

@@ -4,13 +4,11 @@ import "./styles.css";
 export default function Copyright() {
   return (
     <div className="d-flex flex-column copyright">
-      <div className="p-6">
-        <span className="text-dark">Laboratorios San Mateo COPYRIGHT</span>
-      </div>
-      <div className="m-6">
-        <span className="text-dark">
-          Test Clínicos de primer nivel a precios accesibles
-        </span>
+      <div className="m-3">
+        <p style={{ color: "#333", fontWeight: 200 }}>Pharmahogar COPYRIGHT</p>
+        <p style={{ color: "#333", fontWeight: 200 }}>
+          Farmacia que se preocupa por ti
+        </p>
       </div>
     </div>
   );

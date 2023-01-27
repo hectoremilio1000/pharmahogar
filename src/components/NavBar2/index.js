@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
 import styles from "./styles.css";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -23,10 +22,8 @@ function getItem(label, key, icon, children, type) {
 
 const items = [
   getItem("Menú", "sub1", null, [
-    getItem("Paciente", "enrutarUsuario/signin", <SmileOutlined />),
-    getItem("Buscador de pruebas", "otraspruebas", <FileSearchOutlined />),
-    getItem("Bolsa de Trabajo", "bolsatrabajo", <DollarCircleOutlined />),
-    getItem("Blog", "blog", <GlobalOutlined />),
+    getItem("Carrito", "enrutarUsuario/signin", <SmileOutlined />),
+    getItem("Cuenta", "otraspruebas", <FileSearchOutlined />),
   ]),
 ];
 
@@ -44,9 +41,11 @@ function NavBar2() {
         <Link to="/">
           <img
             alt="Pharmahogar"
-            src={"../../assets/images/PharmahogarNombre.png"}
-            width="140px"
-            height="50px"
+            src={
+              "https://imagenesrutalab.s3.amazonaws.com/pharmahogar/PharmahogarBlanconombre.png"
+            }
+            width="175px"
+            height="auto"
           />
         </Link>
       </div>

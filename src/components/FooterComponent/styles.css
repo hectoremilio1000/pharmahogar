@@ -4,15 +4,26 @@
   background-color: #333 !important;
 }
 
-.ulFooter {
-  padding: 0 !important;
-}
-
 .atrevete_footer {
-  font-size: 20px !important;
+  font-size: 18px !important;
+  font-weight: 400;
+  color: #fffef2;
 }
 .descripcion_footer {
   font-size: 16px !important;
+  font-weight: 200;
+  color: #fffef2;
+}
+.titleLink {
+  font-size: 18px !important;
+  font-weight: 400;
+  color: #fffef2;
+}
+
+.linkText {
+  font-size: 16px !important;
+  font-weight: 200;
+  color: #fffef2;
 }
 
 @media (max-width: 500px) {
@@ -21,5 +32,14 @@
   }
   .descripcion_footer {
     font-size: 11px !important;
+  }
+  .titleLink {
+    font-size: 14px !important;
+    font-weight: 400;
+  }
+
+  .linkText {
+    font-size: 11px !important;
+    font-weight: 200;
   }
 }

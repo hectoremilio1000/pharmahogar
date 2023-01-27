@@ -51,6 +51,11 @@
 .ant-menu-submenu-title:active {
   background: transparent !important;
 }
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu {
+  display: flex !important;
+  align-items: center !important;
+}
 @media screen and (max-width: 575px) {
   .container {
     padding-left: 15px !important;

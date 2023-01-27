@@ -25,3 +25,7 @@ p {
 .text-white {
   color: #fffef2 !important;
 }
+
+body {
+  font-family: "Helvetica Neue" !important;
+}

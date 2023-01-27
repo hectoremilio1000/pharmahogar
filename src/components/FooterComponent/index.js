@@ -5,53 +5,26 @@ import "./styles.css";
 function FooterComponent() {
   return (
     <div className="font-small pt-2 footer">
-      <div>
-        <div
-          style={{ display: "flex", justifyContent: "center" }}
-          className="p-2"
-        >
-          <div className="col-6">
-            <h5 className="title font-weight-bold text-white atrevete_footer text-center">
-              Atrévete a conocer los Laboratorios con la Mayor Calidad
-            </h5>
-            <p className="text-white descripcion_footer text-center">
-              Servicios de test de laboratorio a domicilio con la mayor
-              confiabilidad y confidencialidad.
+      <div
+        className="grid grid-cols-1
+      "
+      >
+        <div className="grid grid-cols-2">
+          <div>
+            <h5 className=" atrevete_footer pl-5">Solicita con un click</h5>
+            <p className=" descripcion_footer pl-5">
+              Farmacia a domicilio que piensa en Ti y en tu Salud
             </p>
           </div>
-          <div className="col-6 text-center">
-            <h5 className="title font-weight-bold text-white text-center">
-              Links
-            </h5>
+          <div className="grid grid-cols-1 text-center">
+            <h5 className=" text-center titleLink">Links</h5>
             <ul className="ulFooter">
               <HashLink to="/#home" className="text-decoration-none">
-                <li className="text-center text-white list-unstyled">Inicio</li>
+                <li className="text-center list-unstyled linkText">Inicio</li>
               </HashLink>
 
-              <a href="/bolsatrabajo" className="text-decoration-none">
-                <li className="text-white list-unstyled">Bolsa de trabajo</li>
-              </a>
-
-              <a href="/enrutarUsuario" className="text-decoration-none">
-                <li className="text-center text-white list-unstyled">
-                  Paciente
-                </li>
-              </a>
-              <a href="/privacidad" className="text-decoration-none">
-                <li className="text-center text-white list-unstyled">
-                  Privacidad
-                </li>
-              </a>
-              <a href="/otraspruebas" className="text-decoration-none">
-                <li className="text-center text-white list-unstyled">
-                  Buscador de Pruebas
-                </li>
-              </a>
-              <a href="/blog" className="text-decoration-none">
-                <li className="text-center text-white list-unstyled">Blog</li>
-              </a>
               <a href="/admin2" className="text-decoration-none">
-                <li className="text-center text-white list-unstyled">
+                <li className="text-center text-white list-unstyled linkText">
                   Administrador
                 </li>
               </a>
